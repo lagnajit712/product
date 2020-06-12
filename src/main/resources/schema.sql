@@ -1,0 +1,10 @@
+CREATE TABLE product
+(
+ id INT NOT NULL,
+ name varchar(200) NOT NULL ,
+ description varchar(500) DEFAULT NULL,
+ start_time DATE DEFAULT NULL,
+ PRIMARY KEY (id)
+);
+CREATE SEQUENCE PD_ID_SEQ  INCREMENT BY 1 START 1;
+
